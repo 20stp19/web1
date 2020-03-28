@@ -1,0 +1,56 @@
+<속성과 값>
+	빈 태그를 쓸 때 대부분 속성과 값이 들어가게 된다.
+	ex) <img src='./myimg.png' alt= 'my profile photo' />
+	
+<부모 요소와 자식 요소>
+	태그 안의 태그
+	부모 요소 를 감싸는 그 이상의 태그는 조상요소 혹은 상위 요소
+	자식 요소 하위의 태그는 하위 요소
+
+<빈 태그 혹은 self closing tag>
+	HTML5 에서는 <TAG> 혹은 <TAG /> 두 가지 표기법을 둘 다 사용가능.
+	어떤 것을 써야한다는 것은 중요하지 않고, 혼용만 하지 말자.
+
+<html 문서의 범위>
+	<html></html> : 문서 전체의 범위를 정의
+	<head></head> : 문서의 정보에 해당하는 내용을 담음
+		<meta>	: 속성값 (charset, name - content 등) 을 이용해 문서의 정보를 표현
+		<link> : 외부 문서(css 등)를 참조할 path를 알려줌
+		<script> : 외부 js소스를 가져올 path를 알려줌
+	<body></body> : 구조
+
+<DOCTYPE>
+	DTD : Document Type Declaration
+	웹 브라우저가 우리가 제공할 HTML 문서를 어떤 버전의 해석 방식으로 구조화하면 되는지 알려주는 것
+	
+	<!DOCTYPE html> : html5 버전으로 해석해줘
+	xtml 버전으로 해석되려면?
+		필요할 때 구글하자. <!DOCTYPE ~~~~~> 이런 식으로 아주 김.
+		https://en.wikipedia.org/wiki/Document_type_declaration
+	
+<head 태그 안에 들어가는 것들>
+	<title></title> : 웹 페이지의 제목, 웹 브라우저의 각 사이트 탭에서 이름으로 표시된다. 아이콘은 별개임 이것이랑 관련이 없음.
+	<meta /> : 기타 모든 정보를 총칭
+		<meta charset="UTF-8"> : 문자 인코딩 방식
+		<meta name="author" content="홍길동"> : 검색엔진 혹은 브라우저 등에 제공하기 위한 정보의 종류 (author, description, keywords 등)
+		<meta name="description" content="우리 사이트가 최고!"> : name 이나 http-equiv 속성의 값을 제공
+		
+<link 태그>
+	외부 문서를 연결할 때 사용가능
+	대부분 CSS를 불러올 때 혹은 파비콘을 불러올 때
+		*파비콘(favicon) 이란 ?
+			https://webdir.tistory.com/337
+			
+	<link rel="stylesheet" href="./css/main.css"> rel에는 html문서와 가져오는 문서가 어떤 관계인지 기술해주면 된다.
+	<link rel="icon" href="./favicon.png>
+	
+	rel 속성은 필수 !
+	
+<style 태그>
+	css 문법이에요.
+	외부에다 css파일을 만들어서 가져올 수도 있지만, html 내부에 작성을 해줄 수도 있습니다.
+
+<script 태그>
+	<script src="./js/main.js"></script>
+	
+	
