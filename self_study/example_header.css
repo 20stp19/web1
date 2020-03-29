@@ -1,0 +1,44 @@
+/*body 초기화*/
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+}
+
+.container {
+    background: white;
+    width: 980px;
+    margin: auto; /*980px의 영역을 화면의 중앙으로 위치 시킴*/
+}
+
+.container-left {
+    padding: 20px 0;
+}
+
+.logo {
+    margin-right: 5px;
+    float: left;
+}
+
+.logo img {
+    display: block;
+}
+
+.menu {
+    float: left;
+}
+
+.menu-item{
+    float: left;
+    /* margin-right: 10px; */
+    padding: 8px 10px;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}

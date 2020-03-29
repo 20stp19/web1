@@ -1,0 +1,42 @@
+CSS Property 종류
+	width (가로 너비)
+		화면의 가로 너비
+		width: 300px;
+		요소가로너비: 너비값;
+	
+	height (세로 너비)
+		화면의 세로너비
+		height: 150px;
+		요소세로너비: 너비값;
+	
+	font-size
+		글자 크기
+		대부분의 브라우저의 default 글자 크기는 16px.
+	
+	여백
+		margin (요소의 바깥 여백)
+			margin: 20px;
+			요소바깥여백: 여백값;
+			" 요소의 위, 아래, 좌, 우 모두 20xp의 여백을 지정하겠다는 의미입니다.
+		
+			margin-top, margin-right, margin-bottom, margin-left 로 개별적으로 설정도 가능합니다.
+		
+			바로 위의 4가지 속성을 '개별 속성', margin 자체를 '단축 속성' 이라고 부릅니다.
+		
+		padding (요소의 내부 여백)
+			요소의 내부 여백을 지정합니다.
+			내부 여백은 자식 요소를 감싸는 여백을 의미합니다.
+			padding도 단축 속성입니다. 즉, 각각의 개별 속성이 존재합니다. (padding-top, padding-right,,,)
+	
+	색상
+		color (글자 색상)
+			font-color, text-color 같은 속성은 없다는 것을 기억하자! 헷갈리기 쉬움.
+			color: red;
+			글자색상: 빨강;
+		
+		background (요소의 배경색상)
+			단축 속성이다.
+			따라서 개별 속성도 존재함.
+				ex) background-color
+			
+	
