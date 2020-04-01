@@ -1,0 +1,70 @@
+HTML- 블록 레벨(Block level) 요소와 인라인(Inline) 요소
+	이 개념들이 완벽하게 HTML5에 적용이 된 것은 아니지만, 이 개념들을 알아야 html, css를 수월하게 이해하고 적용할 수 있다.
+
+	1. 블록 요소
+		1. DIV, H1, P 등
+		2. 사용 가능한 최대 가로 너비를 사용한다. (default로)
+		3. 크기를 지정할 수 있다.
+		4.(width: 100%; height:0; 로 시작) == width: auto; height: auto; 로 들어감.
+		5. 수직으로 쌓인다.
+		6. margin, padding 위, 아래, 좌, 우 사용 가능하다.
+		7. display: block (default)
+		
+	2. 인라인 요소
+		1. SPAN, IMG 등
+		2. 필요한 만큼의 너비를 사용한다.(default로)
+		3. 크기를 지정할 수 없다.
+		4. (width: 0; height:0; 로 시작하고 2에 의해서 필요한 너비 만큼만 늘어난다.)
+		5. 수평으로 쌓인다.
+		6. margin, padding 위, 아래는 온전하게 사용을 할 수 없다.
+		7. display: inline (default)
+
+ISO 639-1
+	우리가 html에 작성할수 있는 언어들의 약어 목록
+
+<head> 안에는 문서의 정보!
+	https://developer.mozilla.org/ko/docs/Web/HTML/Element
+	-HTML 문서의 제목 <title></title>
+	-META 를 이용한 기타 정보
+		빈 태그라, 닫히는 태그가 존재하지 않음.
+		charset ( 한글 인코딩이 가능한 두 가지 )
+			EUC-KR : 완성형 (완성된 한 글자씩 조합)
+				박 우 찬 
+			UTF-8 : 조합형 ()
+				ㅂ ㅏ ㄱ ㅇ ㅜ ㅊ ㅏ ㄴ
+	-스타일 직접 입력
+	-스타링 외부에서 가져와서 연결
+
+<body> 안에는 문서의 구조!
+
+viewport란?
+	웹브라우저 내 html 문서를 display 하는 부분 전체?
+
+문서의 모든 내용을 외울 필요가 없으며, 필요할 때 찾아보는 것이 효율적이다.
+
+<link>
+	https://developer.mozilla.org/ko/docs/Web/HTML/Element/link
+	외부에서 파일을 가지고 올 때 쓰고, 현재 html 파일과의 관계를 명시해준다.
+	rel 에도 종류가 많음.
+		가장 많이 사용하는 것 : icon, stylesheet
+
+<style>
+	https://developer.mozilla.org/ko/docs/Web/HTML/Element/style
+	head 태그 안에 작성을 해주자.
+	body 안에서도 작동은 하지만 비효율적이다.
+
+type 속성(property)
+	*** 중요하므로 한번 읽어보기.
+	https://developer.mozilla.org/ko/docs/Web/HTTP/Basics_of_HTTP/MIME_types
+	html5 에서는 생략가능.
+
+<base>
+	(주의) html 문서에 한번만 쓸 수 있음
+		모든 소스가 이 곳에서 오지 않는다면 쓸 수 없을 것이다.
+	상대 경로의 기준
+	주요하게 쓰이는 곳으로 설정해 놓으면 효율적이다.
+	
+
+	
+
+

@@ -1,0 +1,22 @@
+body {
+    background: yellowgreen;
+    margin: 0;
+    padding: 0;
+
+}
+
+div {
+    background: salmon;
+    width: auto;
+    height: auto;
+    margin: 20px;
+    padding: 30px;
+    display: inline;
+}
+
+span {
+    background: slategray;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
