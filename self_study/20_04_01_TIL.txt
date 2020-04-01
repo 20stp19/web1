@@ -1,0 +1,61 @@
+참조 : https://heropy.blog/2019/05/26/html-elements/
+
+<body> 내 콘텐츠 구분
+    <header>
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/header
+        화면 가장 상단에 존재하는 bar.
+        <header><footer> 는 후손이 될 수 없다. 헤더 안에 이들이 있을 수 없다.
+
+    <footer>
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/footer
+        일반적으로 화면 가장 하단에 존재하는 bar. 저작권등을 표기.
+
+    HTML5에 와서야 의미를 가지는 symentic Elements 들이 많이 생김
+        ex) <div class="header"> 에서 <header> 로
+    
+    <h1> ~ <h6> (구획 제목 요소)
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/Heading_Elements
+        제목 폰트의 크기를 줄이기 위해 낮은 단계를 사용하지 마세요.
+        제목 단계를 건너 띄는 것을 피하세요. <h1> 다음은 <h2>를 사용하세요.
+        한 페이지에는 <h1>을 두 번 사용하지 마세요.
+            전체 제목으로만 사용하세요.
+        nesting
+    
+    <main>
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/main
+        문서 내의 주요 컨텐츠를 나타냅니다.
+        IE 지원이 불가합니다.
+    
+    <article>
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/article
+        독립적이고, 재사용 할 수 있는 구획은  article을 사용해 보세요.
+        하나의 문서가 여러 개의 <article>을 가질 수 있습니다.
+        예) 게시판, 블로그 글
+    
+    <section>
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/section
+        문서의 일반적인 영역을 설정
+        <h1>~<h6>으로 식별
+        <section> 내부에는 <article> 가능. 반대도 가능.
+        <div> 와의 차이점?
+            div 도 구역을 설정하지만, h1등을 통해 제목을 가지지 않음.
+            div 는 의미를 가지지 않는다?? (잘 이해가 되지 않음.)
+    
+    <aside>
+        문서의 별도 컨텐츠를 설정.
+
+    <nav>
+        https://www.w3schools.com/tags/tag_nav.asp
+        https://dribbble.com/
+        다른 페이지 링크를 제공하는 영역을 설정.
+        Navigation, 보통 메뉴 (Home, About, Contact) 등을 설정
+
+    <address>
+        https://developer.mozilla.org/ko/docs/Web/HTML/Element/address
+        <body><article><footer> 등에서 연락처 정보를 제공하기 위해 사용하세요
+
+    <div>
+        아무것도 나타내지 않는 콘텐츠 영역을 설정.
+            굉장히 많은 곳에서 사용할 수 있다.
+        꾸미는 목적으로 많이 사용.
+            CSS 나 JS를 통해서 제어 할때...
