@@ -1,0 +1,54 @@
+<ol>, <ul>
+    목록을 만들때 사용.
+    자식으로 <li>만 포함 가능
+    <li>는 단독으로 사용 불가
+    블록 요소임,,
+    <li> 는 블록요소들인 <ol> <ul> 의 자식으로 사용되므로 같이 블록요소다 라고 이해
+        <li> {display: list-item;}
+
+<dl>, <dt>, <dd>
+    Descrition List, Definition Term, Definition Details
+    <dl> 로 <dt> 와 <dd> 를 묶어줌.
+        <dl> 안에는 <dt> 와 <dd> 만 포함해야함.
+        용어 - 설명,,
+        용어 - 설명,, 꼴로 들어가게됨
+    즉, key - value 형태로 표시할 때 유용
+
+    그러면 어떻게 스타일링 하는가?
+        <ol> <ul> 로 대체
+
+<p>
+    문단을 설정.
+        일반적인 문장, 문단(단락)
+    p {display: block;}
+    정보통신보조기기 등은 다음 문단(<p>)으로 넘어갈 수 있는 단축키를 제공함.
+
+<hr />
+    Horizontal Rule
+    문단의 분리를 위해 설정
+        부가적으로 수평선을 만들어냄. (시각적 표현)
+        !! 그러나 의미적 관점으로만 사용해야 함 !!
+            사실은 사각형이므로 시각적 표현을 할때 css 로 조정해줘야함
+
+            ex) hr{
+                    border: none;  //일단 모든 선을 지우고
+                    border-top: 2px dashed red; // 윗 선만 그릴게! 
+                }
+
+        !! 수평선을 넣기 위해서 hr을 사용해서는 안된다는 의미 !!
+    hr  { display: block; }
+
+<pre>
+    Preformatted Text
+    텍스트의 공백과 줄바꿈을 유지하여 표시할 수 있음.
+        우리가 작성한 양식 (엔터, 스페이스) 그대로 출력된다는 의미.
+        (<br/>이 필요 없다는 의미)
+    Monospace 글꼴 계열로 표시됨.
+        모노스페이스??
+            모든 글자의 너비가 같음 (가독성 확보)
+            코드 글꼴에 사용
+
+<blcokquote>
+    https://developer.mozilla.org/ko/docs/Web/HTML/Element/blockquote
+    인용문 설정
+
