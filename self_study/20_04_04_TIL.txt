@@ -48,7 +48,7 @@
             모든 글자의 너비가 같음 (가독성 확보)
             코드 글꼴에 사용
 
-<blcokquote>
+<blockquote>
     https://developer.mozilla.org/ko/docs/Web/HTML/Element/blockquote
     인용문 설정
 
